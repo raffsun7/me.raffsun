@@ -1462,7 +1462,7 @@ flex-direction: column;
 }
 .inputMssBox{
     position: relative;
-    width: 230px;
+    width: 315px;
     margin-top: 27px;
 }
 .inputMssBox input{
@@ -1537,6 +1537,27 @@ flex-direction: column;
 }
 
 
+.msslinks input[type="file"]{
+  display: none;
+}
+.msslinks label{
+  background: none;
+  box-shadow: 0 0 10px #45f3ff;
+  border: 1px solid #45f3ff;
+  height: 40px;
+  width: 140px;
+  margin: 44px 0px;
+  font-size: 0.75em;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 @media (max-width:1000px){
   .newsltr{
@@ -1568,6 +1589,18 @@ flex-direction: column;
   }
   .formbox{
     width: 290px;
+  }
+  .inputMssBox{
+    width: 225px;
+  }
+  .msslinks button{
+    margin-left: 10px;
+  }
+  .msslinks label{
+    width: 130px;
+  }
+  .msslinks label span{
+    display: none;
   }
 }
 
